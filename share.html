@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta charset="utf-8">
+	<title></title>
+    <style>
+        *{
+            text-align: center;
+        }
+        ul{
+            list-style: none;
+        }
+        li{
+            margin: 20px auto;
+        }
+        .sharebtn{
+            width: 84px;
+            font-size:14px;
+            border-radius: 3px;
+        }
+        .sharebtn a{
+            text-decoration: none;
+            color: #fff;
+        }
+        .twitter{
+            background: #1b95e0;
+        }
+        .facebook{
+            background: #4d66a6;
+        }
+    </style>
+</head>
+<body>
+    <h1>SNS(Twitter/Facebook/LINE)シェアボタン</h1>
+    <ul>
+        <li class="sharebtn twitter"><a href="http://twitter.com/share?url=http://qiita.com/h3birth">Twitter</a></li>
+        <li class="sharebtn facebook"><a href="https://www.facebook.com/sharer/sharer.php?u=http://qiita.com/h3birth">Facebook</a></li>
+        <li>
+            <div class="line-it-button" data-lang="ja" data-type="share-a" data-url="https://qiita.com/h3birth" style="display: none;"></div>
+            <script src="https://d.line-scdn.net/r/web/social-plugin/js/thirdparty/loader.min.js" async="async" defer="defer"></script>
+        </li>
+    </ul>
+</body>
+</html>
